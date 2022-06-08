@@ -1,6 +1,6 @@
 {
   "name": "@ed-developer/test-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
@@ -16,8 +16,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@ed-developer/test-package": "0.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -30,15 +32,18 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "rollup": "^2.75.6",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
     "tslib": "^2.4.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
   },
   "publishConfig": {
-  "registry":"https://npm.pkg.github.com"
-},
- "repository":"https://github.com/ed-developer/test-package.git"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/ed-developer/test-package.git"
 }

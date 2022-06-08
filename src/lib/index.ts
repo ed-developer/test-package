@@ -1,3 +1,5 @@
-import Button from "./components/Button";
+// import Button from "./components/Button";
 
-export { Button };
+// export { Button };
+import { Router } from "./pages";
+export { Router };
