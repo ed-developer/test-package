@@ -1,6 +1,6 @@
 {
   "name": "@ed-developer/test-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@ed-developer/test-package": "0.0.0",
+    "@ed-developer/test-package": "0.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"

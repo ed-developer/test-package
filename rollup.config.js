@@ -29,47 +29,16 @@ export default {
       exclude: "**/__tests__/**",
       clean: true,
     }),
-    // commonjs({
-    //   include: ["node_modules/**"],
-    //   namedExports: {
-    //     "node_modules/react/react.js": [
-    //       "Children",
-    //       "Component",
-    //       "PropTypes",
-    //       "createElement",
-    //     ],
-    //     "node_modules/react-dom/index.js": ["render"],
-    //   },
-    // }),
     commonjs({
-      include: "node_modules/**",
-      // left-hand side can be an absolute path, a path
-      // relative to the current directory, or the name
-      // of a module in node_modules
+      include: ["node_modules/**"],
       namedExports: {
-        "node_modules/react/index.js": [
-          "cloneElement",
-          "createContext",
-          "Component",
-          "createElement",
-          "useContext",
-          "useMemo",
-          "useRef",
-          "useEffect",
-          "useCallback",
-          "useState",
-          "useLayoutEffect",
+        "node_modules/react/react.js": [
           "Children",
-          "isValidElement",
-          "Fragment",
-          "forwardRef",
+          "Component",
+          "PropTypes",
+          "createElement",
         ],
-        "node_modules/react-dom/index.js": ["render", "hydrate"],
-        "node_modules/react-is/index.js": [
-          "isElement",
-          "isValidElementType",
-          "ForwardRef",
-        ],
+        "node_modules/react-dom/index.js": ["render"],
       },
     }),
   ],
