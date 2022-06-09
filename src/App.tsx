@@ -1,11 +1,11 @@
 // import { Button } from "./lib";
-import { Router } from "@ed-developer/test-package";
+import { Button } from "@ed-developer/test-package";
 
 function App() {
   // console.log(type);
   return (
     <div className="App">
-      <Router />
+      <Button />
     </div>
   );
 }
