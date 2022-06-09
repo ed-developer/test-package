@@ -2,7 +2,6 @@
 import { Button } from "@ed-developer/test-package";
 
 function App() {
-  // console.log(type);
   return (
     <div className="App">
       <Button />
